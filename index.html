@@ -65,12 +65,8 @@
 	<body>
 		
 	<div class="fh5co-loader"></div>
-	
 	<div id="page">
-
-
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/one4.jpg); background-position: 90% 0%;" data-stellar-background-ratio="0.5">
-
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/one4.jpg); background-position: 0%;" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -100,7 +96,7 @@
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="images/two.jpg" alt="groom" class="img-responsive">
+						<img src="images/chandrika.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
 						<h3>Obul Chandrika</h3>
@@ -110,7 +106,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="images/two2.jpg" alt="groom" class="img-responsive">
+						<img src="images/yash.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3>Yashwanth Sai Kumar</h3>
@@ -423,8 +419,8 @@
 	<script src="js/main.js"></script>
 
 	<script>
-    var d = new Date("24/Dec/2018");
-    var dateString = "2018-12-24 00:00:00";
+    var d = new Date("21/Feb/2019");
+    var dateString = "2019-02-21 19:00:00";
 
     var d = new Date(dateString.replace(' ', 'T'));
 
@@ -432,7 +428,8 @@
     simplyCountdown('.simply-countdown-one', {
         year: d.getFullYear(),
         month: d.getMonth() + 1,
-        day: d.getDate()
+        day: d.getDate(),
+				hours: d.getHours()
     });
 
     //jQuery example
@@ -440,6 +437,7 @@
         year: d.getFullYear(),
         month: d.getMonth() + 1,
         day: d.getDate(),
+				hours: d.getHours(),
         enableUtc: false
     });
 </script>
